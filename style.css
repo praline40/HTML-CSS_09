@@ -1,0 +1,59 @@
+.container
+{
+    width: 666px;
+    height:666px;
+}
+ 
+.white
+{
+    border: 0.5px solid transparent;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}
+ 
+.grey
+{
+    border: 0.5px solid darkgrey;
+    background-color:#4F5B5A;
+    width: 50px;
+    height: 50px;
+}
+ 
+.black
+{
+    border: 0.5px solid darkgrey;
+    background-color:black;
+    width: 50px;
+    height: 50px;
+}
+ 
+.orange
+{
+    border: 0.5px solid darkgrey;
+    background-color:orange;
+    width: 50px;
+    height: 50px;
+}
+ 
+.yellow
+{
+    border: 0.5px solid darkgrey;
+    background-color:yellow;
+    width: 50px;
+    height: 50px;
+}
+.row.no-gutters
+{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* utters are created using padding. 
+You also must adjust the negative margin so that spacing around the outer columns is not affected.  */
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] 
+{
+    padding-right: 0;
+    padding-left: 0;
+}
